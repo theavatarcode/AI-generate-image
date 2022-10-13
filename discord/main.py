@@ -1,14 +1,8 @@
-#MTAyOTgxMzc1MDYxOTk4Mzk0Mw.GEdJO4.NRwG1t7xUc5Iajy2ZzCD_ggtUIRJqV7D9YyHFA
+
 from generate import Generate
 import discord
 from discord.ext import commands
 from PIL import Image
-
-# def start(arg):
-#     G = Generate(arg)
-#     img = Image.open(G.gen())
-    
-
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -20,4 +14,4 @@ async def gen(ctx, arg):
     g.gn()
     await ctx.send(file=discord.File('output.png'))
 
-bot.run('MTAyOTgxMzc1MDYxOTk4Mzk0Mw.GEdJO4.NRwG1t7xUc5Iajy2ZzCD_ggtUIRJqV7D9YyHFA')
+bot.run('Token')
