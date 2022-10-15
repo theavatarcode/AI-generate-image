@@ -23,7 +23,7 @@ const options = {
 	url: 'https://dezgo.p.rapidapi.com/text2image',
 	headers: {
 		'content-type': 'application/x-www-form-urlencoded',
-		'X-RapidAPI-Key': '56075dc1cdmshdd2da87524546fbp122840jsn54a3136b483d',
+		'X-RapidAPI-Key': 'Token',
 		'X-RapidAPI-Host': 'dezgo.p.rapidapi.com'
 	},
 	body: encodedParams
