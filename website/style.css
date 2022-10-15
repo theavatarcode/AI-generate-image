@@ -1,0 +1,9 @@
+
+.animation {
+    animation: progress-ani 13s forwards;
+}
+
+@keyframes progress-ani {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
