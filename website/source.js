@@ -32,6 +32,7 @@ const options = {
 var response = await fetch('https://dezgo.p.rapidapi.com/text2image', options)
 var pngBlob = await response.blob();    
 
+alert('Promt : '+prompt.value)
 prompt.value = ''
 document.getElementById("image").src = URL.createObjectURL(pngBlob);
 progress.classList.remove('animation')
