@@ -1,6 +1,6 @@
 # TEXT 2 IMAGE UI & EASY USE
 
-> try it : https://text2image-newton.netlify.app/
+> try it : https://text2img-bynewton.netlify.app/
 
 ## Website
 
